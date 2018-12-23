@@ -1,0 +1,60 @@
+# svn
+#*.svn*
+
+# mac
+__MACOSX
+*.DS_Store*
+*._*
+*.lock
+*.Spotlight-V100
+*.Trashes
+*ehthumbs.db
+*Thumbs.db
+
+# Python 
+*.pyc
+__pycache__/
+
+
+# Vim
+*.swp
+*.swo
+*.swn
+
+# Xcode
+*~.nib
+#build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.xcscmblueprint
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+
+# Intellij project files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+#office tmp file
+~$*
+#
+###############
+.DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+public/
+.deploy*/
